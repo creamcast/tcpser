@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
   int modem_count;
   int port = 0;
 
-  char *ip_addr = NULL; /* gwb */
+  char *ip_addr = ""; /* gwb */
   char all_busy[255];
 
   pthread_t thread_id;
